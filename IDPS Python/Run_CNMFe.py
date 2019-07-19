@@ -25,8 +25,8 @@ def cnmfe():
                        spatial_downsample_factor=2, fix_defective_pixels=False)
 
     # Set the output file names for the cell set and event set, deleting the files that already exist
-    cellset_file = os.path.join(data_dir, file + '-CNMFE.isxd')
-    events_file = os.path.join(data_dir, file + '-CNMFE-ED.isxd')
+    cellset_file = os.path.join(data_dir, file.replace("isxd", "") + '-CNMFE.isxd')
+    events_file = os.path.join(data_dir, file.replace("isxd", "") + '-CNMFE-ED.isxd')
 
     # remove output files if they already exist
     if os.path.exists(cellset_file):
