@@ -1,5 +1,4 @@
 ## How to use CNMF-E
-### Once the python environemnt is set up
 1. Open the Run_CNMFE.py file. 
 2. A file dialog window will appear. You will be asked to choose a Project Directory. This is the folder that contains the project data folder. 
 3. You will then be asked to choose a data an IDPS Project_data Folder. This is the folder within the Project Directory that contains the processed calcium imaging recording data (with extension '.isxd'). Select this folder.
@@ -11,5 +10,3 @@
 
 The CNMF-E processed movie file as well as the CNMF-E event detection file will now be available in the data folder. The CNMF-E movie file will end in 'CNMFE.isxd' and the event detection file will end in 'CNMFE-ED.isxd'. You can then import these files back into the IDPS GUI.
 
-
-## How to Align Behavior and Cellular Traces
